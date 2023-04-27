@@ -36,4 +36,10 @@ public class DynamicArray<T> : IDynamicArray<T>
 
         this.array[size++] = item;
     }
+
+    public void Clear()
+    {
+        Array.Clear(this.array, 0, this.size);
+        this.size = 0;
+    }
 }
