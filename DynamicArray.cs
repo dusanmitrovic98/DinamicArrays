@@ -102,4 +102,28 @@ public class DynamicArray<T> : IDynamicArray<T>
             Array.Resize(ref array, size);
         }
     }
+
+    public override string ToString()
+    {
+        var result = "";
+
+        for (int i = 0; i < this.Capacity; i++)
+        {
+            if (i == 0)
+            {
+                result += "[" + this[i] + ", ";
+                continue;
+            }
+
+            if (i == (this.Capacity - 1))
+            {
+                result += this[i] + "]";
+                break;
+            }
+
+            result += this[i] + ", ";
+        }
+
+        return result;
+    }
 }
