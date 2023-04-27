@@ -26,4 +26,13 @@ public class DynamicArray<T> : IDynamicArray
         get { return this.array[index]; }
         set { this.array[index] = value; }
     }
+
+    public void Add(T item)
+    {
+        if (size == array.Length)
+        {
+            Array.Resize(ref array, array.Length * 2);
+        }
+        array[size++] = item;
+    }
 }
