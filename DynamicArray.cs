@@ -20,4 +20,10 @@ public class DynamicArray<T> : IDynamicArray
     {
         get { return this.array.Length; }
     }
+
+    public T this[int index]
+    {
+        get { return array[index]; }
+        set { array[index] = value; }
+    }
 }
