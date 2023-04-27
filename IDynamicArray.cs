@@ -7,4 +7,5 @@ public interface IDynamicArray<T>
     public void Add(T item);
     public void Clear();
     public bool Contains(T item);
+    public int IndexOf(T item);
 }

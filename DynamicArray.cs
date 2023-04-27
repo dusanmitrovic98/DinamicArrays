@@ -54,4 +54,16 @@ public class DynamicArray<T> : IDynamicArray<T>
         }
         return false;
     }
+
+    public int IndexOf(T item)
+    {
+        for (int i = 0; i < size; i++)
+        {
+            if (EqualityComparer<T>.Default.Equals(array[i], item))
+            {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
