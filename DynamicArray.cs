@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.DynamicArray;
 
-public class DynamicArray<T>
+public class DynamicArray<T> : IDynamicArray
 {
     private T[] array;
     private int size;
@@ -9,5 +9,10 @@ public class DynamicArray<T>
     {
         this.array = new T[capacity];
         this.size = 0;
+    }
+
+    public int Size
+    {
+        get { throw new NotImplementedException(); }
     }
 }
