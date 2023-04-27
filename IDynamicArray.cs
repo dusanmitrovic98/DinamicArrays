@@ -8,6 +8,7 @@ public interface IDynamicArray<T>
     public void Clear();
     public bool Contains(T item);
     public int IndexOf(T item);
+    public void Insert(int index, T item);
     public bool Remove(T item);
     public void RemoveAt(int index);
     public void TrimExcess();

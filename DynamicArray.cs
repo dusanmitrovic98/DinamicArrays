@@ -67,6 +67,17 @@ public class DynamicArray<T> : IDynamicArray<T>
         return -1;
     }
 
+    public void Insert(int index, T item)
+    {
+        if (size == array.Length)
+        {
+            Array.Resize(ref array, array.Length * 2);
+        }
+        Array.Copy(array, index, array, index + 1, size - index);
+        array[index] = item;
+        size++;
+    }
+
     public bool Remove(T item)
     {
         int index = IndexOf(item);
