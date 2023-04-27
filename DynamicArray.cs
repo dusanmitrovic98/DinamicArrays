@@ -29,10 +29,11 @@ public class DynamicArray<T> : IDynamicArray
 
     public void Add(T item)
     {
-        if (size == array.Length)
+        if (this.size == this.array.Length)
         {
-            Array.Resize(ref array, array.Length * 2);
+            Array.Resize(ref this.array, this.array.Length * 2);
         }
-        array[size++] = item;
+
+        this.array[size++] = item;
     }
 }
