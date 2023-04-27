@@ -66,4 +66,29 @@ public class DynamicArray<T> : IDynamicArray<T>
         }
         return -1;
     }
+
+    public bool Remove(T item)
+    {
+        int index = IndexOf(item);
+        if (index != -1)
+        {
+            RemoveAt(index);
+            return true;
+        }
+        return false;
+    }
+
+    public void RemoveAt(int index)
+    {
+        Array.Copy(array, index + 1, array, index, size - index - 1);
+        size--;
+    }
+
+    public void TrimExcess()
+    {
+        if (size < array.Length)
+        {
+            Array.Resize(ref array, size);
+        }
+    }
 }
