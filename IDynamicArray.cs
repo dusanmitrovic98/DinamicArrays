@@ -6,4 +6,5 @@ public interface IDynamicArray<T>
     public int Capacity { get; }
     public void Add(T item);
     public void Clear();
+    public bool Contains();
 }

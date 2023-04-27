@@ -42,4 +42,16 @@ public class DynamicArray<T> : IDynamicArray<T>
         Array.Clear(this.array, 0, this.size);
         this.size = 0;
     }
+
+    public bool Contains(T item)
+    {
+        for (int i = 0; i < size; i++)
+        {
+            if (EqualityComparer<T>.Default.Equals(array[i], item))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 }
