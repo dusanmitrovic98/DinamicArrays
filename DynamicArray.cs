@@ -1,6 +1,6 @@
 ﻿namespace DataStructures.Collections.DynamicArray;
 
-public class DynamicArray
+public class DynamicArray<T>
 {
 
 }
