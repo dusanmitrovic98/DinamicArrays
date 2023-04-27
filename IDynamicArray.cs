@@ -1,8 +1,8 @@
 namespace DataStructures.Collections.DynamicArray;
 
-public interface IDynamicArray
+public interface IDynamicArray<T>
 {
     public int Size { get; }
     public int Capacity { get; }
-    public void Add();
+    public void Add(T item);
 }
