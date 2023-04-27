@@ -7,6 +7,6 @@ public class DynamicArray<T>
 
     public DynamicArray(int capacity)
     {
-
+        this.array = new T[capacity];
     }
 }
