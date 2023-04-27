@@ -15,4 +15,9 @@ public class DynamicArray<T> : IDynamicArray
     {
         get { return this.size; }
     }
+
+    public int Capacity
+    {
+        get { return this.array.Length; }
+    }
 }
