@@ -13,6 +13,6 @@ public class DynamicArray<T> : IDynamicArray
 
     public int Size
     {
-        get { throw new NotImplementedException(); }
+        get { return this.size; }
     }
 }
