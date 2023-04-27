@@ -1,0 +1,12 @@
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\bin\Debug\net7.0\DynamicArrays.deps.json
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\bin\Debug\net7.0\DynamicArrays.dll
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\bin\Debug\net7.0\DynamicArrays.pdb
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.csproj.AssemblyReference.cache
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.AssemblyInfoInputs.cache
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.AssemblyInfo.cs
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.csproj.CoreCompileInputs.cache
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.dll
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\refint\DynamicArrays.dll
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\DynamicArrays.pdb
+C:\Users\BK2O198\Documents\Workstation\DynamicArrays\obj\Debug\net7.0\ref\DynamicArrays.dll
