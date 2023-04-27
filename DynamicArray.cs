@@ -23,7 +23,7 @@ public class DynamicArray<T> : IDynamicArray
 
     public T this[int index]
     {
-        get { return array[index]; }
-        set { array[index] = value; }
+        get { return this.array[index]; }
+        set { this.array[index] = value; }
     }
 }
